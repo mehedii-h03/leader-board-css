@@ -76,6 +76,9 @@ hr {
     display: flex;
     gap: 16px;
 }
+.blog-title{
+    margin: 0;
+}
 
 .thumbnail img {
     width: 177px;
@@ -84,11 +87,13 @@ hr {
 
 .author-name {
     color: #9F9F9F;
+    margin: 0;
 }
 
 .author-name a {
     text-decoration: none;
     color: #562EFF;
+    margin: 0;
 }
 
 /* Courses Style */
@@ -148,11 +153,10 @@ hr {
         align-items: center;
     }
     .blog-title{
-        margin: 0 0 0 0;
         font-size: 18px;
+        width: 95%;
     }
     .author-name{
-        margin: 0;
         font-size: 14px;
     }
     .courses{
@@ -160,8 +164,5 @@ hr {
     }
     .course-inst{
         margin: 0;
-    }
-    .course-info-rat{
-        margin: 0;
-    }
+    }   
 }
